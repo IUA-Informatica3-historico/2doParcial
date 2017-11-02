@@ -5,10 +5,10 @@ package info3.parcial2;
  */
 class Email {
 
-    private long id;
-    private String from;
-    private String to;
-    private String date;
-    private String subject;
-    private String content;
+    public long id;
+    public String from;
+    public String to;
+    public String date;
+    public String subject;
+    public String content;
 }
