@@ -8,7 +8,7 @@ public class MailManager {
      *
      * @param m mail a agregar
      */
-    public void addMail(Email m){
+    public void addMail(Email m) {
 
     }
 
@@ -17,7 +17,7 @@ public class MailManager {
      *
      * @param id identificador del mail a borrar
      */
-    public void deleteMail(long id){
+    public void deleteMail(long id) {
 
     }
 
@@ -26,7 +26,7 @@ public class MailManager {
      *
      * @return lista de mails ordenados
      */
-    public Email[] getSortedByDate(){
+    public Email[] getSortedByDate() {
         return new Email[0];
     }
 
@@ -36,9 +36,9 @@ public class MailManager {
      *
      * @param desde Fecha desde donde buscar
      * @param hasta Fecha hasta donde buscar
-     * @return lista de mails ordenados
+     * @return lista de mails ord-enados
      */
-    public Email[] getSortedByDate(Date desde, Date hasta){
+    public Email[] getSortedByDate(String desde, String hasta) {
         return new Email[0];
     }
 
@@ -47,18 +47,20 @@ public class MailManager {
      *
      * @return lista de mails ordenados
      */
-    public Email[] getSortedByFrom(){
+    public Email[] getSortedByFrom() {
         return new Email[0];
     }
+
     /**
      * Devuelve una lista de mails de un determinado remitente
      *
      * @param from String con direccion del remitente
      * @return lista de mails del remitente
      */
-    public Email[] getByFrom(String from){
+    public Email[] getByFrom(String from) {
         return new Email[0];
     }
+
     /**
      * Devuelve una lista de mails que contengan las palabras de 'query'
      * en su asunto o en su contenido
@@ -66,7 +68,7 @@ public class MailManager {
      * @param query String con palabra/s a buscar
      * @return lista de mails que contienen dicha/s palabra/s
      */
-    public Email[] getByQuery(String query){
+    public Email[] getByQuery(String query) {
         return new Email[0];
     }
 }
